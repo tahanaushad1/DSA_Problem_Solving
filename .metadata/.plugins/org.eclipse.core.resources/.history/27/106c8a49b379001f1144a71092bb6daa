@@ -1,0 +1,6 @@
+package com.lamda;
+@FunctionalInterface
+public interface SumInter {
+	void add(int a,int b);
+
+}

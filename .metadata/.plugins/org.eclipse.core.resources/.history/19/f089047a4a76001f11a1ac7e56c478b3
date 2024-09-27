@@ -1,0 +1,11 @@
+//*
+//**
+//***
+//****
+package com.pattern;
+
+public class Patterns01 {
+	int n=4;
+	for(int i=1;i<=4;)
+
+}

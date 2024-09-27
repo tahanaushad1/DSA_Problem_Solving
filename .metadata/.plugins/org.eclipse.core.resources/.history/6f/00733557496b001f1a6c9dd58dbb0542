@@ -1,0 +1,20 @@
+package com.swappingNumber;
+
+import java.util.Scanner;
+
+public class SwappingTwoNumber {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter your 1st Number");
+		int a=sc.nextInt();
+		System.out.println("Enter your 2st Number");
+		System.out.println("After swapping Number");
+		int b=sc.nextInt();
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("Before swapping number");
+		
+	}
+
+}

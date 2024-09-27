@@ -1,0 +1,11 @@
+package com.String;
+
+public class Reverse_String {
+	public static void main(String[] args) {
+		String s="Taha";
+		String reverse=new StringBuilder(s).reverse().toString();
+		System.out.println("Reverse"+reverse);
+	
+	}
+
+}
